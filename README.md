@@ -25,7 +25,7 @@ financial-health-analysis/
 ## Expected Outcomes
 - 
 
-## Link for Tablaeu Visualization
+## Link for Tableau Visualization
 
 
 ### Sources (for datasets)

@@ -241,6 +241,9 @@ SELECT * FROM v_returns
 WHERE year = 2022 AND roe > 15;  
 ---5. Companies with strong cash flow from operations (>50% of total cash flow) in 2022
 SELECT * FROM v_cashflow_mix
-WHERE year = 2022 AND cfo_percentage > 50;         
+WHERE year = 2022 AND cfo_percentage > 50;        
+
+--Note: Further analysis (segmentation and health scoring) is done in Python (financial_health_segmentation.py) using the export_kpis view as the data source.
+--Visualizations and dashboards can be created in Tableau with financial health segmentation and altman z-score dataset (in data folder).
 
 

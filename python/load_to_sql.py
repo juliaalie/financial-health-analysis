@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 #1. Load dataset
-df = pd.read_csv('data/Financial Statements.csv')
+df = pd.read_csv('raw/data/Financial Statements.csv')
 
 #2. Data cleaning and preprocessing
 df_cleaned = df.dropna()
