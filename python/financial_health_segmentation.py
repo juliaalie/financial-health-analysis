@@ -111,7 +111,7 @@ df2["z_score"] = (
 )
 
 def z_score_label(z):
-    if pd.isna(z) > 2.99:
+    if z > 2.99:
         return "Safe Zone"
     elif 1.81 < z <= 2.99:
         return "Grey Zone"
